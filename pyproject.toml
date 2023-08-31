@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "example"
+version = "1.0"
+description = "Django in Linux WSL"
+authors = ["Ivan Sinyavskiy <stargot@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
