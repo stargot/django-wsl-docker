@@ -1,13 +1,16 @@
 [tool.poetry]
-name = "example"
-version = "1.0"
-description = "Django in Linux WSL"
+name = "django-wsl-docker"
+version = "1.0.1"
+description = "Django in Linux WSL Docker Container"
 authors = ["Ivan Sinyavskiy <stargot@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 django = "^4.2.4"
+psycopg = "^3.1.10"
+python-dotenv = "^1.0.0"
+daphne = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core"]
